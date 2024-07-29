@@ -1,5 +1,6 @@
 
 import './App.css';
+import Button from './Button';
 import ClassComponent from './ClassComponent';
 import FuntionComponent from './FunctionComponent';
 
@@ -12,6 +13,9 @@ function App() {
 
         <FuntionComponent/>
         <FuntionComponent name = "SaSAC 6기"/>
+        <hr/>
+
+        <Button/>
     </div>
   );
 }
