@@ -1,21 +1,20 @@
-
 import './App.css';
 import Button from './Button';
 import ClassComponent from './ClassComponent';
-import FuntionComponent from './FunctionComponent';
+import FunctionComponent from './FunctionComponent';
 
 function App() {
   return (
     <div className="App">
-        <ClassComponent/>
-        <ClassComponent name = "SaSAC 6기"/>
-        <hr/>
+        <ClassComponent />
+        <ClassComponent name="SeSAC 6기"/>
+        <hr />
 
-        <FuntionComponent/>
-        <FuntionComponent name = "SaSAC 6기"/>
-        <hr/>
+        <FunctionComponent />
+        <FunctionComponent name="SeSAC 6기"/>
+        <hr />
 
-        <Button/>
+        <Button link="https://www.google.com">Google</Button>
     </div>
   );
 }
